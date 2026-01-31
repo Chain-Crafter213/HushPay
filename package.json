@@ -1,0 +1,33 @@
+{
+  "name": "hushpay",
+  "version": "1.0.0",
+  "description": "Pay anything. No wallet drama. Walletless payment links + invoicing for freelancers/SMEs.",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "install:all": "npm install && npm install --prefix packages/contracts && npm install --prefix apps/web",
+    "build:contracts": "npm run build --prefix packages/contracts",
+    "test:contracts": "npm run test --prefix packages/contracts",
+    "deploy:polygon": "npm run deploy:polygon --prefix packages/contracts",
+    "verify:polygon": "npm run verify:polygon --prefix packages/contracts",
+    "dev:web": "npm run dev --prefix apps/web",
+    "build:web": "npm run build --prefix apps/web",
+    "preview:web": "npm run preview --prefix apps/web",
+    "test": "npm run test:contracts",
+    "build": "npm run build:contracts && npm run build:web"
+  },
+  "keywords": [
+    "crypto",
+    "payments",
+    "usdc",
+    "polygon",
+    "invoicing",
+    "escrow",
+    "web3"
+  ],
+  "author": "",
+  "license": "MIT"
+}

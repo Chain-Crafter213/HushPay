@@ -1,0 +1,16 @@
+{
+  "chainId": 137,
+  "network": "polygon",
+  "contracts": {
+    "HushPayInvoices": {
+      "address": "0xa961a614CDB8721ccb168cd453d675cAFd4Ee5cC",
+      "deployedAt": "2026-01-31T20:06:14.020Z",
+      "deployTxHash": "0x784a472bd66986948ddff5016a0d5bf118a57b781b119d77edb4aca67abf4fe3",
+      "constructorArgs": {
+        "usdcToken": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+        "feeRecipient": "0xd462cc45b06Ae45daCd93F7B3979758C7b4a2cc0",
+        "feeBps": 50
+      }
+    }
+  }
+}

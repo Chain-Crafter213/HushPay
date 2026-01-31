@@ -1,0 +1,21 @@
+{
+  "polygon": {
+    "chainId": 137,
+    "name": "Polygon PoS Mainnet",
+    "network": "polygon",
+    "nativeCurrency": {
+      "name": "MATIC",
+      "symbol": "MATIC",
+      "decimals": 18
+    },
+    "rpcUrls": {
+      "default": "https://polygon-rpc.com",
+      "alchemy": "https://polygon-mainnet.g.alchemy.com/v2/",
+      "infura": "https://polygon-mainnet.infura.io/v3/"
+    },
+    "blockExplorer": {
+      "name": "PolygonScan",
+      "url": "https://polygonscan.com"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "network": "polygon",
+  "chainId": "137",
+  "deployer": "0xd462cc45b06Ae45daCd93F7B3979758C7b4a2cc0",
+  "deployedAt": "2026-01-31T21:10:16.155Z",
+  "usdc": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+  "contracts": {
+    "feeManager": "0x0a1B6ab1Ee210425EDDe4628d5250411aBF4748E",
+    "merchantRegistry": "0x26b1ea9Bb8Aa33086Fa5b4D32EA89b2Da6DD4B14",
+    "invoicesV2": "0x87B7b40e7f2914B3d5b689AAF4418e1AD7084630",
+    "disputes": "0x90EC2789Eec7381Bc11EAC5AF7B0804e75D1F68a",
+    "milestones": "0xd36De25daeE4Dc1D54c530FE25aD03a195FDf642",
+    "invoicesV1": "0xa961a614CDB8721ccb168cd453d675cAFd4Ee5cC"
+  }
+}
